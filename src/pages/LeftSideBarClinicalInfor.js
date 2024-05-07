@@ -2,9 +2,11 @@ import FrameComponent3 from "../components/FrameComponent3";
 import FrameComponent1 from "../components/FrameComponent1";
 import FrameComponent from "../components/FrameComponent";
 import "./LeftSideBarClinicalInfor.css";
-import react,{ useState } from "react";
-const LeftSideBarClinicalInfor = () => {
+import Collapsible from "react-collapsible";
+import react, { useState } from "react";
+import Vitals from "../components/VitalsData/Vitals";
 
+const LeftSideBarClinicalInfor = () => {
   return (
     <div className="left-side-bar-clinical-infor">
       <FrameComponent3 />
@@ -12,10 +14,10 @@ const LeftSideBarClinicalInfor = () => {
         <section className="frame-parent">
           <FrameComponent1 />
           <div className="frame-group">
-            
             <div className="matrix-multiplier-wrapper">
               <div className="matrix-multiplier">
                 <div className="medical-records">Medical Records</div>
+
                 <div className="graph-processor">
                   <div className="interactions">Interactions</div>
                 </div>
@@ -27,9 +29,11 @@ const LeftSideBarClinicalInfor = () => {
             </div>
             <div className="data-visualizer">
               <div className="algorithm-component">
-                <h3 className="vitals">VITALS</h3>
-                <h3 className="data-normalizer">+</h3>
+                <Collapsible trigger="VITALS" className="vitals">
+                  <Vitals />
+                </Collapsible>
               </div>
+
               <div className="algorithm-component1">
                 <h3 className="nutrition-blood">{`NUTRITION & BLOOD SUGAR`}</h3>
                 <h3 className="data-normalizer">+</h3>

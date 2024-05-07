@@ -7,7 +7,9 @@ const FrameComponent1 = () => {
   const [personalClinical, setPersonalClinical] = useState("personal");
 
   return (
-    <div className="joiner-parent">
+    <div className="joiner-parent"
+    style={{ height: "100vh", overflow: "auto", }}
+    >
       <div className="joiner">
         <div className="frame-parent3">
           <div className="frame-parent4">
