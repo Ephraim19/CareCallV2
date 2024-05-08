@@ -3,6 +3,9 @@ import "./Vitals.css";
 import FrameComponent1 from "./FrameComponent1";
 import VITALSGRAPHICALREPRESENTAT from "./VITALSGRAPHICALREPRESENTAT";
 import TemperatureGraph from "./TemperatureGraph";
+import OxygenGraph from "./OxygenGraph";
+import PulseRateGraph from "./PulseRateGraph";
+import RespiratoryRate from "./RespiratoryRate";
 
 const Vitals = () => {
   const [table, setTable] = React.useState("table");
@@ -79,11 +82,20 @@ const Vitals = () => {
       <div className="timer-manager" />
       {table === "graphical" && (
         <div>
-          <div style={{ marginBottom: "5%" }}>
+          <div style={{ marginBottom: "7%" }}>
             <VITALSGRAPHICALREPRESENTAT />
           </div>
-          <div style={{ marginBottom: "50%" }}>
+          <div style={{ marginBottom: "7%" }}>
             <TemperatureGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <OxygenGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <PulseRateGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <RespiratoryRate />
           </div>
         </div>
       )}
