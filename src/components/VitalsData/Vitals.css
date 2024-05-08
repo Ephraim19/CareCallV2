@@ -101,6 +101,9 @@
   justify-content: flex-start;
   gap: 76px;
   max-width: 100%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+
 }
 .date-parent {
   flex: 1;
@@ -324,6 +327,7 @@
   display: inline-block;
   min-width: 101px;
   color: var(--color-steelblue);
+  /* font-size: var(--font-size-lgi); */
 }
 
 .date {

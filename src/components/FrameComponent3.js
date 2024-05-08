@@ -6,9 +6,9 @@ const FrameComponent3 = () => {
     <header className="conditional-branch">
       <div className="frame-container">
         <div className="navigation-svgrepocom-wrapper">
-          <FaBars className="navigation-svgrepocom-icon" loading="lazy" />
+          <FaBars className="navigation-svgrepocom-icon"/>
         </div>
-        <div className="carecall-logo-parent">
+        {/* <div className="carecall-logo-parent"> */}
           <div className="logic-gate">
             <div className="carecall-parent">
               <h2 className="carecall">
@@ -23,7 +23,7 @@ const FrameComponent3 = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
       <div className="conditional-branch-inner">
         <div className="frame-div">
           <div className="vector-wrapper">
@@ -41,13 +41,13 @@ const FrameComponent3 = () => {
           <div className="view-all-members">Members</div>
         </button>
       </div>
+      <div className="conditional-branch-child">
+        <button className="view-all-members-wrapper">
+          <div className="view-all-members">New Member</div>
+        </button>
+      </div>
       <div className="conditional-branch-inner1">
         <div className="frame-parent1">
-          <div className="frame-wrapper">
-            <button className="add-new-member-wrapper">
-              <div className="view-all-members">New Member</div>
-            </button>
-          </div>
           <img
             className="profile-circle-svgrepocom-icon"
             loading="lazy"

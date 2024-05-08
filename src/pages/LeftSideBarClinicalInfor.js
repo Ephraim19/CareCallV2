@@ -3,10 +3,12 @@ import FrameComponent1 from "../components/FrameComponent1";
 import FrameComponent from "../components/FrameComponent";
 import "./LeftSideBarClinicalInfor.css";
 import Collapsible from "react-collapsible";
-import react, { useState } from "react";
+import React, { useState } from "react";
 import Vitals from "../components/VitalsData/Vitals";
 
 const LeftSideBarClinicalInfor = () => {
+  const [personalClinical, setPersonalClinical] = useState("personal");
+
   return (
     <div className="left-side-bar-clinical-infor">
       <FrameComponent3 />
@@ -33,11 +35,14 @@ const LeftSideBarClinicalInfor = () => {
                   <Vitals />
                 </Collapsible>
               </div>
-
-              <div className="algorithm-component1">
-                <h3 className="nutrition-blood">{`NUTRITION & BLOOD SUGAR`}</h3>
-                <h3 className="data-normalizer">+</h3>
-              </div>
+              <Collapsible
+                trigger={
+                  <div className="algorithm-component1">
+                    <h3 className="nutrition-blood">{`NUTRITION & BLOOD SUGAR`}</h3>
+                    <h3 className="data-normalizer">+</h3>
+                  </div>
+                }
+              ></Collapsible>
               <div className="algorithm-component2">
                 <h3 className="nutrition-blood">LAB FINDINGS</h3>
                 <h3 className="data-normalizer">+</h3>
