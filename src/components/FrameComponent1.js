@@ -7,6 +7,17 @@ import Personal from "../components/BioData/Personal";
 const FrameComponent1 = () => {
   const [personalClinical, setPersonalClinical] = useState("personal");
 
+  const pers = (e) => {
+    setPersonalClinical("personal");
+    // e.target.style.backgroundColor = "#0090af";
+    // e.target.style.color = "#fff";
+    e.target.className = "clinical-wrapper";
+  };
+
+  const cln = (e) => {
+    setPersonalClinical("clinical");
+  }
+
   return (
     <div
       className="joiner-parent"
@@ -18,6 +29,7 @@ const FrameComponent1 = () => {
             <div className="frame-wrapper2">
               <div className="felix-wandera-parent">
                 <h3 className="felix-wandera">Felix Wandera</h3>
+
                 <div className="id-20387-parent">
                   <div className="age-54-y-container">
                     <span>ID:</span>
@@ -52,20 +64,19 @@ const FrameComponent1 = () => {
           <div
             className="personal-wrapper"
             style={{ cursor: "pointer" }}
-            onClick={() => setPersonalClinical("personal")}
+            onClick={pers}
           >
             <div className="personal">Personal</div>
           </div>
           <div
             className="clinical-wrapper"
             style={{ cursor: "pointer" }}
-            onClick={() => setPersonalClinical("clinical")}
+            onClick={cln}
           >
             <div className="clinical">Clinical</div>
           </div>
         </div>
       </div>
-
       {personalClinical === "clinical" && <Clinical />}
       {personalClinical === "personal" && <Personal />}
     </div>
