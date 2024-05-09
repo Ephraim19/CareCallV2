@@ -5,6 +5,8 @@ import "./LeftSideBarClinicalInfor.css";
 import Collapsible from "react-collapsible";
 import React, { useState } from "react";
 import Vitals from "../components/VitalsData/Vitals";
+import Nutrition from "../components/NutritionData/Nutrition";
+import LabFindings from "../components/LAB FINDINGS/LabFindings";
 
 const LeftSideBarClinicalInfor = () => {
   const [personalClinical, setPersonalClinical] = useState("personal");
@@ -30,23 +32,38 @@ const LeftSideBarClinicalInfor = () => {
               </div>
             </div>
             <div className="data-visualizer">
-              <div className="algorithm-component">
-                <Collapsible trigger="VITALS" className="vitals">
-                  <Vitals />
-                </Collapsible>
-              </div>
               <Collapsible
                 trigger={
-                  <div className="algorithm-component1">
+                  <div className="algorithm-component">
+                    <h3 className="vitals">VITALS</h3>
+                    <h3 className="data-normalizer">+</h3>
+                  </div>
+                }
+              >
+                <Vitals />
+              </Collapsible>
+
+              <Collapsible
+                trigger={
+                  <div className="algorithm-component1" style={{ cursor:"pointer" }}>
                     <h3 className="nutrition-blood">{`NUTRITION & BLOOD SUGAR`}</h3>
                     <h3 className="data-normalizer">+</h3>
                   </div>
                 }
-              ></Collapsible>
+              >
+                <Nutrition />
+              </Collapsible>
+
+              <Collapsible
+                trigger={
               <div className="algorithm-component2">
                 <h3 className="nutrition-blood">LAB FINDINGS</h3>
                 <h3 className="data-normalizer">+</h3>
               </div>
+                }>
+                <LabFindings />
+              </Collapsible>
+              
               <div className="algorithm-component3">
                 <h3 className="nutrition-blood">{`IMAGING `}</h3>
                 <h3 className="data-normalizer">+</h3>

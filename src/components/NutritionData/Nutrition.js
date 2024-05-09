@@ -1,20 +1,24 @@
 import React from "react";
-import "./Vitals.css";
-import FrameComponent1 from "./FrameComponent1";
-import VITALSGRAPHICALREPRESENTAT from "./VITALSGRAPHICALREPRESENTAT";
-import TemperatureGraph from "./TemperatureGraph";
-import OxygenGraph from "./OxygenGraph";
-import PulseRateGraph from "./PulseRateGraph";
-import RespiratoryRate from "./RespiratoryRate";
-
-const Vitals = () => {
+import "../VitalsData/Vitals.css"
+import BloodSugarGraph from "./BloodSugarGraph";
+import Hba1c from "./Hba1c";
+import BMIGraph from "./BMIGraph";
+import Weight from "./Weight";
+import BodyFatGraph from "./BodyFatGraph";
+// import MuscleMassGraph from "./NutritionData/MusceMassGraph";
+import MuscleMassGraph from "./MuscleMassGraph";
+import BoneMassGraph from "./BoneMassGraph";
+import DCIGraph from "./DCIGraph";
+import VisceralFatGraph from "./VisceralFatGraph";
+import BodyWaterGraph from "./BodyWaterGraph";
+import MetabolicAgeGraph from "./MetabolicAgeGraph";
+const Nutrition = () => {
   const [table, setTable] = React.useState("table");
   return (
-    
     <div>
       <div className="iterative-processor">
         <div className="vitals-wrapper">
-          <h3 className="vitals1">VITALS</h3>
+          <h3 className="vitals1">NUTRITION</h3>
         </div>
         <div className="iterative-processor-child">
           <div className="vector-group">
@@ -36,15 +40,14 @@ const Vitals = () => {
         <div>
           <div className="frame-parent4">
             <div className="blood-pressure-parent">
-              <div className="blood-pressure">Blood Pressure</div>
+              <div className="blood-pressure">Random Blood Sugar</div>
             </div>
           </div>
 
           <div className="property-editor-inner2">
             <div className="date-parent">
               <div className="date">Date</div>
-              <div className="diastolic-mmhg">Systolic (mmHg)</div>
-              <div className="diastolic-mmhg">Diastolic (mmHg)</div>
+              <div className="diastolic-mmhg">RBS (mmol/L)</div>
               <div className="diastolic-mmhg">Interpretation</div>
             </div>
           </div>
@@ -59,9 +62,7 @@ const Vitals = () => {
               <div className="wrapper">
                 <div className="div3">133</div>
               </div>
-              <div className="container">
-                <div className="div4">81</div>
-              </div>
+             
               <div className="prehypertension">Prehypertension</div>
             </div>
 
@@ -74,14 +75,14 @@ const Vitals = () => {
 
           <div className="frame-parent4">
             <div className="blood-pressure-parent">
-              <div className="blood-pressure">Temperature</div>
+              <div className="blood-pressure">Fasting Blood Sugar</div>
             </div>
           </div>
 
           <div className="property-editor-inner2">
             <div className="date-parent">
               <div className="date">Date</div>
-              <div className="diastolic-mmhg">Reading (Degrees Celcius)</div>
+              <div className="diastolic-mmhg">FBS (mmol/L)</div>
               <div className="diastolic-mmhg">Interpretation</div>
             </div>
           </div>
@@ -108,49 +109,14 @@ const Vitals = () => {
 
           <div className="frame-parent4">
             <div className="blood-pressure-parent">
-              <div className="blood-pressure">Oxygen Saturation</div>
+              <div className="blood-pressure">Glycated Haemoglobin</div>
             </div>
           </div>
 
           <div className="property-editor-inner2">
             <div className="date-parent">
               <div className="date">Date</div>
-              <div className="diastolic-mmhg">SpO2(%)</div>
-              <div className="diastolic-mmhg">Interpretation</div>
-            </div>
-          </div>
-
-          <div className="property-editor-inner1">
-            <div className="line-div" />
-          </div>
-
-          <div className="property-editor-inner2">
-            <div className="parent">
-              <div className="div2">05/04/2022</div>
-              <div className="wrapper">
-                <div className="div3">133</div>
-              </div>
-              {/* <div className="container">
-                <div className="div4">prehypertension</div>
-              </div> */}
-              <div className="prehypertension">Prehypertension</div>
-            </div>
-          </div>
-
-          <div className="property-editor-inner1">
-            <div className="line-div" />
-          </div>
-
-          <div className="frame-parent4">
-            <div className="blood-pressure-parent">
-              <div className="blood-pressure">Pulse Rate </div>
-            </div>
-          </div>
-
-          <div className="property-editor-inner2">
-            <div className="date-parent">
-              <div className="date">Date</div>
-              <div className="diastolic-mmhg">Pulse Rate (bpm) </div>
+              <div className="diastolic-mmhg">Hba1c (%)</div>
               <div className="diastolic-mmhg">Interpretation</div>
             </div>
           </div>
@@ -178,14 +144,14 @@ const Vitals = () => {
 
           <div className="frame-parent4">
             <div className="blood-pressure-parent">
-              <div className="blood-pressure">Respiratory Rate </div>
+              <div className="blood-pressure">Body Mass Index </div>
             </div>
           </div>
 
           <div className="property-editor-inner2">
             <div className="date-parent">
               <div className="date">Date</div>
-              <div className="diastolic-mmhg">Respiratory Rate (bpm) </div>
+              <div className="diastolic-mmhg">BMI(kg/m^2) </div>
               <div className="diastolic-mmhg">Interpretation</div>
             </div>
           </div>
@@ -204,6 +170,47 @@ const Vitals = () => {
                 <div className="div4">prehypertension</div>
               </div> */}
               <div className="prehypertension">Prehypertension</div>
+            </div>
+          </div>
+
+          <div className="property-editor-inner1">
+            <div className="line-div" />
+          </div>
+
+          <div className="frame-parent4">
+            <div className="blood-pressure-parent">
+              <div className="blood-pressure">Body Composition Analysis </div>
+            </div>
+          </div>
+
+          <div className="property-editor-inner2">
+            <div className="date-parent">
+              <div className="date">Date</div>
+              <div className="diastolic-mmhg">Body fat (%) </div>
+              <div className="diastolic-mmhg">Muscle mass</div>
+              <div className="diastolic-mmhg">Bone mass</div>
+              <div className="diastolic-mmhg">DCI</div>
+              <div className="diastolic-mmhg">Body water</div>
+              <div className="diastolic-mmhg">Body water</div>
+              <div className="diastolic-mmhg">Visceral fat</div>
+              <div className="diastolic-mmhg">Metabolic age</div>
+            </div>
+          </div>
+
+          <div className="property-editor-inner1">
+            <div className="line-div" />
+          </div>
+
+          <div className="property-editor-inner2">
+            <div className="parent">
+              <div className="div2">05/04/2022</div>
+              <div className="wrapper">
+                <div className="div3">--</div>
+              </div>
+              {/* <div className="container">
+                <div className="div4">prehypertension</div>
+              </div> */}
+              <div className="prehypertension">--</div>
             </div>
 
             <div className="property-editor-inner1">
@@ -216,19 +223,37 @@ const Vitals = () => {
       {table === "graphical" && (
         <div>
           <div style={{ marginBottom: "7%" }}>
-            <VITALSGRAPHICALREPRESENTAT />
+            <BloodSugarGraph />
           </div>
           <div style={{ marginBottom: "7%" }}>
-            <TemperatureGraph />
+            <Hba1c />
           </div>
           <div style={{ marginBottom: "7%" }}>
-            <OxygenGraph />
+            <BMIGraph />
           </div>
           <div style={{ marginBottom: "7%" }}>
-            <PulseRateGraph />
+            <Weight />
           </div>
           <div style={{ marginBottom: "7%" }}>
-            <RespiratoryRate />
+            <BodyFatGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <MuscleMassGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <BoneMassGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <DCIGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <VisceralFatGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <BodyWaterGraph />
+          </div>
+          <div style={{ marginBottom: "7%" }}>
+            <MetabolicAgeGraph />
           </div>
         </div>
       )}
@@ -236,4 +261,4 @@ const Vitals = () => {
   );
 };
 
-export default Vitals;
+export default Nutrition;
