@@ -6,6 +6,8 @@
   font-family: inherit;
   display: flex;
 }
+
+
 /* .felix-wandera:hover {
   font-weight: 700;
   font-family: var(--font-roboto-slab);
@@ -759,7 +761,6 @@
   display: flex;
   min-width: 113;
   font-size: 18px;
-  
 }
 /* .conditions:hover {
   font-family: var(--font-roboto-slab);
@@ -792,7 +793,7 @@
   color: var(--color-darkslategray-200);
   display: flex;
   width: auto;
-  font-size: 14px
+  font-size: 15px;
 }
 /* .diabetes-mellitus-type:hover {
   font-weight: 500;
@@ -873,7 +874,6 @@
   font-weight: 500;
   display: flex;
   min-width: 59;
-
 }
 /* .status:hover {
   font-weight: 500;
@@ -891,7 +891,6 @@
   color: var(--color-red);
   display: flex;
   min-width: 59;
-
 }
 /* .active:hover {
   font-weight: 500;
@@ -1116,7 +1115,6 @@
   color: var(--color-steelblue);
   display: flex;
   min-width: 101;
-
 }
 /* .at-risk-of:hover {
   font-family: var(--font-roboto-slab);
@@ -1169,7 +1167,6 @@
   font-weight: 500;
   color: var(--color-darkslategray-200);
   display: flex;
-
 }
 /* .family-history:hover {
   font-weight: 500;
@@ -1267,7 +1264,6 @@
   transform: rotate(0deg);
   font-size: var(--font-size-lgi);
   color: var(--color-darkslategray-200);
-  
 }
 .for-loop:hover {
   display: flex;
@@ -1365,7 +1361,7 @@
   height: auto;
   gap: var(--gap-0);
   transform: rotate(0deg);
-  font-size: var(--font-size-3xl);
+  font-size: 18px;
   color: var(--color-steelblue);
 }
 .allergies-wrapper:hover {
@@ -1398,13 +1394,13 @@
 }
 .pollen {
   position: relative;
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   font-weight: 500;
   color: var(--color-darkslategray-200);
   display: flex;
   min-width: 57;
 }
-.pollen:hover {
+/* .pollen:hover {
   font-weight: 500;
   font-family: var(--font-roboto-slab);
   font-size: var(--font-size-lgi);
@@ -1412,7 +1408,7 @@
   color: var(--color-darkslategray-200);
   display: flex;
   min-width: 57;
-}
+} */
 .penicillin {
   position: relative;
   font-weight: 500;
@@ -1510,20 +1506,12 @@
   width: 112px;
 }
 .anaphylaxis {
-  width: 150px;
+  width: 50px;
   position: relative;
   font-weight: 500;
   display: flex;
   align-items: center;
-}
-.anaphylaxis:hover {
-  font-weight: 500;
-  font-family: var(--font-roboto-slab);
-  font-size: var(--font-size-lgi);
-  text-align: left;
-  color: var(--color-darkslategray-200);
-  display: flex;
-  width: 150px;
+  font-size: 15px;
 }
 .frame-parent16 {
   align-self: stretch;
@@ -1962,14 +1950,9 @@
 .family-history1 {
   position: relative;
   display: flex;
+  font-size: 18px;
 }
-.family-history1:hover {
-  font-family: var(--font-roboto-slab);
-  font-size: var(--font-size-3xl);
-  text-align: left;
-  color: var(--color-steelblue);
-  display: flex;
-}
+
 .relationship {
   position: relative;
   font-weight: 500;
@@ -1987,7 +1970,7 @@
 }
 .father {
   position: relative;
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   font-weight: 500;
   color: var(--color-darkslategray-200);
   display: flex;
@@ -2180,16 +2163,9 @@
   font-weight: 500;
   display: flex;
   align-items: center;
+  font-size: 15px;
 }
-.type-2-diabetes:hover {
-  font-weight: 500;
-  font-family: var(--font-roboto-slab);
-  font-size: var(--font-size-lgi);
-  text-align: left;
-  color: var(--color-darkslategray-200);
-  display: flex;
-  width: 185px;
-}
+
 .logic-gate1 {
   align-self: stretch;
   display: flex;
@@ -2304,15 +2280,9 @@
   position: relative;
   display: flex;
   min-width: 122;
+  font-size: 19px;
 }
-.other-notes:hover {
-  font-family: var(--font-roboto-slab);
-  font-size: var(--font-size-3xl);
-  text-align: left;
-  color: var(--color-steelblue);
-  display: flex;
-  min-width: 122;
-}
+
 .write-other-notes-here {
   margin: 0;
   font-family: inherit;

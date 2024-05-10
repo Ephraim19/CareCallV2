@@ -1,11 +1,12 @@
 import "./FrameComponent2.css";
 
 const FrameComponent2 = ({ pastAdmissions, rEASONDIAGNOSIS }) => {
-  return (
-    <div className="frame-parent2">
+  return ( 
+    <div className="frame-parent2" >
       <div className="past-admissions-parent">
         <div className="past-admissions">{pastAdmissions}</div>
         <div className="date-parent">
+          
           <div className="date">DATE</div>
           <div className="reasondiagnosis">{rEASONDIAGNOSIS}</div>
         </div>

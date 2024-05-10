@@ -99,7 +99,7 @@ const FrameComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="exception-handler-wrapper">
+      <div className="exception-handler-wrapper" style={{marginBottom:"5%"}} >
         <div className="frame-parent13">
           <div className="frame-parent14">
             <div className="allergies-wrapper">
@@ -109,8 +109,7 @@ const FrameComponent1 = () => {
               <div className="allergen">ALLERGEN</div>
               <div className="pollen">Pollen</div>
             </div>
-            <div className="penicillin">{`Penicillin `}</div>
-            <div className="nickel">Nickel</div>
+            <div className="pollen">Nickel</div>
           </div>
           <div className="frame-wrapper9">
             <div className="frame-parent11">
@@ -124,14 +123,13 @@ const FrameComponent1 = () => {
                   <div className="reaction">REACTION</div>
                   <div className="family-history">Allergic asthma</div>
                 </div>
-                <div className="anaphylaxis">Anaphylaxis</div>
                 <div className="hypertension">Contact dermatitis</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="transform-stage">
+      <div className="transform-stage" style={{marginBottom:"5%"}} >
         <div className="frame-parent17">
           <FrameComponent2
             pastAdmissions="Past admissions"
@@ -142,17 +140,15 @@ const FrameComponent1 = () => {
               <div className="dec-2020">Dec 2020</div>
               <div className="jan-2013-parent">
                 <div className="jan-2013">Jan 2013</div>
-                <div className="div1">2007</div>
               </div>
             </div>
             <div className="nested-loop">
               <div className="input-collector">
-                <div className="hypergylcemic-hyperosmolar-sta">
+                <div className="anaphylaxis">
                   Hypergylcemic hyperosmolar state
                 </div>
               </div>
               <div className="anaphylaxis">Pneumonia</div>
-              <div className="hypertension">Road traffic accident</div>
             </div>
           </div>
         </div>
@@ -179,7 +175,7 @@ const FrameComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="transform-stage">
+      <div className="transform-stage" style={{marginBottom:"5%"}}>
         <div className="reduce-stage">
           <div className="map-stage">
             <div className="family-history1">Family History</div>
@@ -188,9 +184,9 @@ const FrameComponent1 = () => {
                 <div className="relationship">RELATIONSHIP</div>
                 <div className="father">Father</div>
               </div>
-              <div className="mother">Mother</div>
+              <div className="father">Mother</div>
             </div>
-            <div className="sibling">Sibling</div>
+            <div className="father">Sibling</div>
           </div>
           <div className="transformed-stage">
             <div className="collected-stage">
