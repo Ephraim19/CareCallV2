@@ -34,7 +34,7 @@ const LeftSideBarClinicalInfor = () => {
                 trigger={
                   <div className="algorithm-component">
                     <h3 className="vitals">VITALS</h3>
-                    <h3 className="data-normalizer">+</h3>
+                    <h3 className="data-normalizer1">+</h3>
                   </div>
                 }
               >
@@ -52,6 +52,7 @@ const LeftSideBarClinicalInfor = () => {
                   </div>
                 }
               >
+
                 <Nutrition />
               </Collapsible>
 
@@ -59,7 +60,7 @@ const LeftSideBarClinicalInfor = () => {
                 trigger={
                   <div className="algorithm-component2">
                     <h3 className="nutrition-blood">LAB FINDINGS</h3>
-                    <h3 className="data-normalizer">+</h3>
+                    <h3 className="data-normalizer2">+</h3>
                   </div>
                 }
               >
