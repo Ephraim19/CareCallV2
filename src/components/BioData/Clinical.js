@@ -4,40 +4,44 @@ import React, { useState } from "react";
 
 const FrameComponent1 = () => {
   return (
-    <div >
-      <div className="frame-wrapper4">
-        <div className="frame-parent6">
-          <div className="overview-parent">
-            <div className="overview">Overview</div>
-            <div className="frame-parent7">
-              <div className="health-status-parent">
-                <div className="health-status">HEALTH STATUS</div>
-                <div className="healthy">Healthy</div>
-              </div>
-              <div className="health-status-parent">
-                <div className="risk-score">RISK SCORE</div>
-                <div className="div">83%</div>
+    <div>
+      <div className="stack-parent">
+        <div >
+          <div className="stack">
+            <div className="set">
+              <h3 className="insurance-employer1">{`Overview`}</h3>
+              <div className="list">
+                <div className="employer1">HEALTH STATUS</div>
+                <div className="department1">RISK SCORE</div>
               </div>
             </div>
-            <div className="frame-parent8">
-              <div className="health-status-parent">
-                <div className="health-goals">HEALTH GOALS</div>
-                <div className="dm-control">DM control</div>
-              </div>
-              <div className="health-status-parent">
-                <div className="blood-group">Blood Group</div>
-                <div className="a">A+</div>
+            <div className="matrix">
+              <div className="rectangle-parent18">
+                <div className="frame-child28" />
+                <div className="edit7">EDIT</div>
               </div>
             </div>
           </div>
-          <div className="frame-wrapper5">
-            <div className="edit-container">
-              <div className="edit1">EDIT</div>
+          <div className="string-processor">
+            <div className="math-operation">
+              <div className="carecall3">Healthy</div>
+              <div className="insurer1">HEALTH GOALS</div>
             </div>
+            <div className="assignment-operator">
+              <div className="motivational-design1">83%</div>
+              <div className="insurance-id1">BLOOD GROUP</div>
+            </div>
+          </div>
+          <div className="return-operator">
+            <div className="if-statement">
+              <div className="britam1">Keep fit</div>
+            </div>
+            <div className="ins077t7t6r762901">A+</div>
           </div>
         </div>
       </div>
-      <div className="exception-handler-wrapper" style={{marginBottom:"5%"}} >
+
+      <div className="exception-handler-wrapper" style={{ marginBottom: "5%" }}>
         <div className="frame-parent9">
           <div className="conditions-parent">
             <div className="conditions">Conditions</div>
@@ -73,7 +77,7 @@ const FrameComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="loop-processor" style={{marginBottom:"5%"}} >
+      <div className="loop-processor" style={{ marginBottom: "5%" }}>
         <div className="at-risk-of-parent">
           <div className="at-risk-of">At Risk of</div>
           <div className="condition-parent">
@@ -99,7 +103,7 @@ const FrameComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="exception-handler-wrapper" style={{marginBottom:"5%"}} >
+      <div className="exception-handler-wrapper" style={{ marginBottom: "5%" }}>
         <div className="frame-parent13">
           <div className="frame-parent14">
             <div className="allergies-wrapper">
@@ -129,7 +133,7 @@ const FrameComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="transform-stage" style={{marginBottom:"5%"}} >
+      <div className="transform-stage" style={{ marginBottom: "5%" }}>
         <div className="frame-parent17">
           <FrameComponent2
             pastAdmissions="Past admissions"
@@ -175,7 +179,7 @@ const FrameComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="transform-stage" style={{marginBottom:"5%"}}>
+      <div className="transform-stage" style={{ marginBottom: "5%" }}>
         <div className="reduce-stage">
           <div className="map-stage">
             <div className="family-history1">Family History</div>
