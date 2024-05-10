@@ -622,7 +622,7 @@
   display: flex;
   min-width: 23;
   z-index: 1;
-  margin-left: -5%;
+  margin-left: -85px;
 }
 .edit1:hover {
   font-weight: 500;
@@ -873,8 +873,9 @@
   font-weight: 500;
   display: flex;
   min-width: 59;
+
 }
-.status:hover {
+/* .status:hover {
   font-weight: 500;
   font-family: var(--font-roboto-slab);
   font-size: var(--font-size-mini);
@@ -882,16 +883,17 @@
   color: var(--color-gray-100);
   display: flex;
   min-width: 59;
-}
+} */
 .active {
   position: relative;
-  font-size: var(--font-size-lgi);
+  font-size: 14px;
   font-weight: 500;
   color: var(--color-red);
   display: flex;
   min-width: 59;
+
 }
-.active:hover {
+/* .active:hover {
   font-weight: 500;
   font-family: var(--font-roboto-slab);
   font-size: var(--font-size-lgi);
@@ -899,7 +901,7 @@
   color: var(--color-red);
   display: flex;
   min-width: 59;
-}
+} */
 .frame-wrapper7 {
   align-self: stretch;
   display: flex;
@@ -1110,19 +1112,20 @@
 }
 .at-risk-of {
   position: relative;
-  font-size: var(--font-size-3xl);
+  font-size: 18px;
   color: var(--color-steelblue);
   display: flex;
   min-width: 101;
+
 }
-.at-risk-of:hover {
+/* .at-risk-of:hover {
   font-family: var(--font-roboto-slab);
   font-size: var(--font-size-3xl);
   text-align: left;
   color: var(--color-steelblue);
   display: flex;
   min-width: 101;
-}
+} */
 .at-risk-of-parent {
   width: 139px;
   display: flex;
@@ -1162,19 +1165,20 @@
 }
 .family-history {
   position: relative;
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   font-weight: 500;
   color: var(--color-darkslategray-200);
   display: flex;
+
 }
-.family-history:hover {
+/* .family-history:hover {
   font-weight: 500;
   font-family: var(--font-roboto-slab);
   font-size: var(--font-size-lgi);
   text-align: left;
   color: var(--color-darkslategray-200);
   display: flex;
-}
+} */
 .due-to-parent {
   display: flex;
   flex-direction: column;
@@ -1263,6 +1267,7 @@
   transform: rotate(0deg);
   font-size: var(--font-size-lgi);
   color: var(--color-darkslategray-200);
+  
 }
 .for-loop:hover {
   display: flex;

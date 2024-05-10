@@ -37,7 +37,7 @@ const FrameComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="exception-handler-wrapper">
+      <div className="exception-handler-wrapper" style={{marginBottom:"5%"}} >
         <div className="frame-parent9">
           <div className="conditions-parent">
             <div className="conditions">Conditions</div>
@@ -64,16 +64,16 @@ const FrameComponent1 = () => {
             </div>
             <div className="condition-splitter">
               <div className="input-filter">
-                <div className="active1">Active</div>
+                <div className="active">Active</div>
                 <div className="error-handler">
-                  <div className="resolved">Resolved</div>
+                  <div className="active">Resolved</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="loop-processor">
+      <div className="loop-processor" style={{marginBottom:"5%"}} >
         <div className="at-risk-of-parent">
           <div className="at-risk-of">At Risk of</div>
           <div className="condition-parent">
@@ -93,8 +93,8 @@ const FrameComponent1 = () => {
                 <div className="due-to">DUE TO</div>
                 <div className="family-history">Family history</div>
               </div>
-              <div className="heavy-smoking">Heavy smoking</div>
-              <div className="severe-htn">Severe HTN</div>
+              <div className="family-history">Heavy smoking</div>
+              <div className="family-history">Severe HTN</div>
             </div>
           </div>
         </div>
