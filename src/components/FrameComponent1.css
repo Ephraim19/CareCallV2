@@ -407,7 +407,8 @@
   font-weight: 500;
   display: flex;
 }
-.health-status:hover {
+
+/* .health-status:hover {
   font-weight: 500;
   font-family: var(--font-roboto-slab);
   font-size: var(--font-size-mini);
@@ -415,7 +416,7 @@
   color: var(--color-gray-100);
   display: flex;
   min-width: 124;
-}
+} */
 .healthy {
   position: relative;
   font-size: var(--font-size-lg);
@@ -621,6 +622,7 @@
   display: flex;
   min-width: 23;
   z-index: 1;
+  margin-left: -5%;
 }
 .edit1:hover {
   font-weight: 500;
@@ -756,15 +758,17 @@
   color: var(--color-steelblue);
   display: flex;
   min-width: 113;
+  font-size: 18px;
+  
 }
-.conditions:hover {
+/* .conditions:hover {
   font-family: var(--font-roboto-slab);
   font-size: var(--font-size-3xl);
   text-align: left;
   color: var(--color-steelblue);
   display: flex;
   min-width: 113;
-}
+} */
 .condition {
   position: relative;
   font-weight: 500;
@@ -788,6 +792,7 @@
   color: var(--color-darkslategray-200);
   display: flex;
   width: auto;
+  font-size: 14px
 }
 /* .diabetes-mellitus-type:hover {
   font-weight: 500;
@@ -809,7 +814,7 @@
   width: auto;
   height: auto;
   transform: rotate(0deg);
-  font-size: var(--font-size-mini);
+  font-size: 14px;
   color: var(--color-gray-100);
 }
 .condition-parent:hover {
@@ -829,7 +834,7 @@
   font-weight: 500;
   display: flex;
   width: auto;
-  font-size: var(--font-size-lg);
+  font-size: 14px;
 }
 /* .hypertension:hover {
   font-weight: 500;

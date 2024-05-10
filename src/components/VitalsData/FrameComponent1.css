@@ -30,6 +30,8 @@
     align-self: stretch;
     justify-content: flex-end;
   }
+
+  
   .interpretation {
     position: relative;
     font-size: var(--font-size-lgi);

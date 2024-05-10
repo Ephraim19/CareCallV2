@@ -5,14 +5,26 @@ const Personal = () => {
   return (
     <div>
       <div className="constant-parent">
-        <div className="constant">
+        <div
+          className="constant"
+          style={{ marginBottom: "5%", overflow: "hidden" }}
+        >
           <div className="function-parameter">
-            <h3 className="program-status1">{`Program, Status & Assignees`}</h3>
             <div className="exception-handler">
+              <h3 className="program-status1">{`Program, Status & Assignees`}</h3>
+
+              <div className="matrix111">
+                <div className="rectangle-parent18">
+                  <div className="frame-child28" />
+                  <div className="edit7">EDIT</div>
+                </div>
+              </div>
+
               <div className="error-message">
                 <div className="program1">PROGRAM</div>
                 <div className="status1">STATUS</div>
               </div>
+
               <div className="directed-graph">
                 <div className="graph-traversal">
                   <div className="vitalcare3601">VitalCare360</div>
@@ -106,39 +118,41 @@ const Personal = () => {
         </div>
       </div> */}
       <div className="stack-parent">
-        <div className="stack">
-          <div className="set">
-            <h3 className="insurance-employer1">{`Insurance & Employer`}</h3>
-            <div className="list">
-              <div className="employer1">EMPLOYER</div>
-              <div className="department1">DEPARTMENT</div>
+        <div className="stack1">
+          <div className="stack">
+            <div className="set">
+              <h3 className="insurance-employer1">{`Insurance & Employer`}</h3>
+              <div className="list">
+                <div className="employer1">EMPLOYER</div>
+                <div className="department1">DEPARTMENT</div>
+              </div>
+            </div>
+            <div className="matrix">
+              <div className="rectangle-parent18">
+                <div className="frame-child28" />
+                <div className="edit7">EDIT</div>
+              </div>
             </div>
           </div>
-          <div className="matrix">
-            <div className="rectangle-parent18">
-              <div className="frame-child28" />
-              <div className="edit7">EDIT</div>
+          <div className="string-processor">
+            <div className="math-operation">
+              <div className="carecall3">CareCall</div>
+              <div className="insurer1">INSURER</div>
+            </div>
+            <div className="assignment-operator">
+              <div className="motivational-design1">Motivational Design</div>
+              <div className="insurance-id1">INSURANCE ID</div>
             </div>
           </div>
-        </div>
-        <div className="string-processor">
-          <div className="math-operation">
-            <div className="carecall3">CareCall</div>
-            <div className="insurer1">INSURER</div>
+          <div className="return-operator">
+            <div className="if-statement">
+              <div className="britam1">BRITAM</div>
+            </div>
+            <div className="ins077t7t6r762901">INS077T7T6R76290</div>
           </div>
-          <div className="assignment-operator">
-            <div className="motivational-design1">Motivational Design</div>
-            <div className="insurance-id1">INSURANCE ID</div>
-          </div>
-        </div>
-        <div className="return-operator">
-          <div className="if-statement">
-            <div className="britam1">BRITAM</div>
-          </div>
-          <div className="ins077t7t6r762901">INS077T7T6R76290</div>
         </div>
 
-        <div className="graph-edges">
+        <div className="graph-edges" style={{ marginBottom: "5%" }}>
           <div className="image-set">
             <div className="connection-network">
               <div className="addresses-parent">
@@ -181,7 +195,8 @@ const Personal = () => {
           <div className="stroke-maker">
             <div className="delivery-instructions1">DELIVERY INSTRUCTIONS</div>
             <div className="always-deliver-at1">
-              Always deliver at the office on weekdays
+              <p>Always deliver at the office on </p>
+              <p>weekdays</p>
             </div>
           </div>
         </div>

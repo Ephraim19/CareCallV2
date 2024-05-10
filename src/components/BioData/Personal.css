@@ -10,15 +10,17 @@
 }
 .exception-handler {
   gap: var(--gap-10xs);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color-gray-100);
 }
 .program-status1 {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: 17px;
   font-weight: 400;
   font-family: inherit;
+  color: var(--color-steelblue);
+  margin-bottom: 5%;
 }
 .function-parameter {
   gap: var(--gap-mid);
@@ -49,7 +51,6 @@
   justify-content: flex-start;
   padding: var(--padding-11xs) var(--padding-3xs) var(--padding-4xs);
   box-sizing: border-box;
-
   width: 100%;
 }
 .constant,
@@ -250,18 +251,16 @@
   position: relative;
   font-weight: 500;
   display: inline-block;
-  min-width: 67px;
+  min-width: 109px;
 }
-.status1 {
-  min-width: 59px;
-}
+
 .error-message {
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap: var(--gap-xs-);
+  gap: 20px;
 }
 .stage1,
 .vitalcare3601 {
@@ -310,10 +309,11 @@
 .active-group {
   flex-direction: row;
   gap: var(--gap-sm);
+  width: 100%;
 }
 .care-manager1 {
   position: relative;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--color-gray-100);
   display: inline-block;
@@ -327,7 +327,7 @@
 .directed-graph {
   flex-direction: row;
   gap: var(--gap-23xl);
-  font-size: 12px;
+  font-size: 15px;
   color: var(--color-darkslategray-200);
 }
 
@@ -619,7 +619,7 @@ ebenezer-mokamba1 {
 .insurance-employer1 {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: 17px;
   font-weight: 400;
   font-family: inherit;
 }
@@ -628,10 +628,10 @@ ebenezer-mokamba1 {
   position: relative;
   font-weight: 500;
   display: inline-block;
-  min-width: 84px;
+  min-width: auto;
 }
 .department1 {
-  min-width: 106px;
+  min-width: auto;
 }
 .list,
 .set {
@@ -643,7 +643,7 @@ ebenezer-mokamba1 {
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-base);
-  font-size: 12px;
+  font-size: 15px;
   color: var(--color-gray-100);
 }
 .set {
@@ -667,6 +667,7 @@ ebenezer-mokamba1 {
   display: inline-block;
   min-width: 23px;
   z-index: 1;
+  color: var(--color-steelblue);
 }
 .rectangle-parent18 {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
@@ -683,13 +684,26 @@ ebenezer-mokamba1 {
   align-items: flex-start;
   justify-content: flex-start;
 }
+.matrix111 {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  font-size: var(--font-size-4xs);
+  margin-left: 86%;
+  margin-top: -11%;
+}
 .matrix {
   flex-direction: column;
   padding: var(--padding-5xs) 0 0;
   font-size: var(--font-size-4xs);
 }
+
+.stack1 {
+  background-color: var(--color-dodgerblue-300);
+  margin-bottom: 5%;
+}
+
 .stack {
-  width: 348px;
+  width: 290px;
   flex-direction: row;
   flex-wrap: wrap;
   gap: var(--gap-26xl);
@@ -716,8 +730,12 @@ ebenezer-mokamba1 {
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.insurance-id1,
 .motivational-design1 {
+  position: relative;
+  font-weight: 500;
+  margin-left: -50%;
+}
+.insurance-id1 {
   position: relative;
   font-weight: 500;
 }
@@ -725,7 +743,8 @@ ebenezer-mokamba1 {
   font-size: var(--font-size-mini);
   color: var(--color-gray-100);
   display: inline-block;
-  min-width: 109px;
+  min-width: auto;
+  margin-left: -50%;
 }
 .assignment-operator,
 .string-processor {
@@ -758,6 +777,7 @@ ebenezer-mokamba1 {
 .ins077t7t6r762901 {
   position: relative;
   font-weight: 500;
+  /* margin-left: -75%; */
 }
 .return-operator,
 .stack-parent {
@@ -766,24 +786,27 @@ ebenezer-mokamba1 {
   max-width: 100%;
 }
 .return-operator {
-  width: 337px;
+  width: 250px;
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
+  margin-bottom: 10%;
+  /* margin-BOTTOM: 100px; */
 }
 .stack-parent {
   align-self: stretch;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: var(--br-3xs);
   background-color: var(--color-dodgerblue-300);
+
   overflow-y: auto;
   flex-shrink: 0;
   flex-direction: column;
   justify-content: flex-start;
   padding: var(--padding-11xs) var(--padding-3xs) var(--padding-4xs);
   box-sizing: border-box;
-  gap: var(--gap-10xs-5);
-  font-size: var(--font-size-lgi);
+  gap: 1px;
+  font-size: 15px;
 }
 .addresses1,
 .home1 {
@@ -793,7 +816,7 @@ ebenezer-mokamba1 {
 
 .addresses1 {
   margin: 0;
-  font-size: inherit;
+  font-size: 17px;
   font-weight: 400;
   font-family: inherit;
   min-width: 108px;
@@ -835,6 +858,7 @@ ebenezer-mokamba1 {
   justify-content: flex-start;
   padding: var(--padding-10xs) var(--padding-7xs) var(--padding-11xs)
     var(--padding-4xs);
+  margin-left: -120px;
 }
 .connection-network,
 .icon-library,
@@ -856,7 +880,7 @@ ebenezer-mokamba1 {
 }
 .court-316-kiu1 {
   position: relative;
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   font-weight: 500;
   color: var(--color-darkslategray-200);
   display: inline-block;
@@ -883,7 +907,7 @@ ebenezer-mokamba1 {
   min-width: 54px;
 }
 .th-ave-suits1 {
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   color: var(--color-darkslategray-200);
 }
 .data-container {
@@ -902,7 +926,7 @@ ebenezer-mokamba1 {
 }
 
 .open-in-maps1 {
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   font-weight: 800;
   color: var(--color-navy);
   min-width: 127px;
@@ -924,8 +948,9 @@ ebenezer-mokamba1 {
   min-width: 65px;
 }
 .nairobi-county1 {
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   color: var(--color-darkslategray-200);
+  min-width: 150px;
 }
 .county-parent,
 .pathway-network {
@@ -948,7 +973,7 @@ ebenezer-mokamba1 {
   min-width: 48px;
 }
 .nairobi1 {
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   color: var(--color-darkslategray-200);
   min-width: 67px;
 }
@@ -971,9 +996,10 @@ ebenezer-mokamba1 {
 }
 .always-deliver-at1 {
   align-self: stretch;
-  font-size: var(--font-size-lgi);
+  font-size: 15px;
   color: var(--color-darkslategray-200);
 }
+
 .graph-edges,
 .stroke-maker {
   display: flex;
@@ -1111,7 +1137,7 @@ ebenezer-mokamba1 {
   justify-content: flex-end;
   padding: 0 0 var(--padding-8xs);
   text-align: center;
-  font-size: var(--font-size-lg);
+  font-size: 14px;
   color: var(--color-limegreen);
 }
 .fill-assigner,
@@ -1128,14 +1154,14 @@ ebenezer-mokamba1 {
   padding: var(--padding-12xs) var(--padding-7xs) var(--padding-11xs);
   box-sizing: border-box;
   gap: var(--gap-34xl);
-  font-size: var(--font-size-lgi);
+  font-size: 14px;
   color: var(--color-darkslategray-200);
 }
 .fill-assigner {
-  width: 354px;
+  width: 285px;
   flex-direction: column;
   gap: var(--gap-sm);
-  font-size: var(--font-size-3xl);
+  font-size: 17px;
   color: var(--color-steelblue);
 }
 .frame-child33 {
@@ -1152,6 +1178,7 @@ ebenezer-mokamba1 {
   position: relative;
   font-weight: 500;
   z-index: 1;
+  font-size: 14px;
 }
 .spouse1 {
   font-size: var(--font-size-mini);
@@ -1199,12 +1226,12 @@ ebenezer-mokamba1 {
   justify-content: flex-end;
   padding: 0 0 var(--padding-8xs);
   text-align: center;
-  font-size: var(--font-size-lg);
+  font-size: 14px;
   color: var(--color-red);
 }
 .frame-child35,
 .rectangle-parent22 {
-  width: 354px;
+  width: 300px;
   border-radius: var(--br-3xs);
   background-color: var(--color-dodgerblue-200);
   max-width: 100%;
@@ -1228,6 +1255,7 @@ ebenezer-mokamba1 {
   position: relative;
   font-weight: 500;
   z-index: 1;
+  font-size: 14px;
 }
 .child1 {
   font-size: var(--font-size-mini);
@@ -1236,6 +1264,7 @@ ebenezer-mokamba1 {
   min-width: 38px;
 }
 .henry-wandera-10-group {
+  width: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1278,7 +1307,7 @@ ebenezer-mokamba1 {
   justify-content: flex-end;
   padding: 0 0 var(--padding-8xs);
   text-align: center;
-  font-size: var(--font-size-xs);
+  font-size: 14px;
   color: var(--color-darkblue);
 }
 .frame-parent19,
