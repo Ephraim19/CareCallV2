@@ -2392,6 +2392,10 @@
   font-size: var(--font-size-lgi);
   color: var(--color-darkslategray-200);
   font-family: var(--font-roboto-slab);
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  
 }
 /* .joiner-parent:hover {
   background-color: var(--color-white);

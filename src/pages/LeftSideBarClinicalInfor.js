@@ -9,8 +9,6 @@ import Nutrition from "../components/NutritionData/Nutrition";
 import LabFindings from "../components/LAB FINDINGS/LabFindings";
 
 const LeftSideBarClinicalInfor = () => {
-  const [personalClinical, setPersonalClinical] = useState("personal");
-
   return (
     <div className="left-side-bar-clinical-infor">
       <FrameComponent3 />
@@ -45,7 +43,10 @@ const LeftSideBarClinicalInfor = () => {
 
               <Collapsible
                 trigger={
-                  <div className="algorithm-component1" style={{ cursor:"pointer" }}>
+                  <div
+                    className="algorithm-component1"
+                    style={{ cursor: "pointer" }}
+                  >
                     <h3 className="nutrition-blood">{`NUTRITION & BLOOD SUGAR`}</h3>
                     <h3 className="data-normalizer">+</h3>
                   </div>
@@ -56,14 +57,15 @@ const LeftSideBarClinicalInfor = () => {
 
               <Collapsible
                 trigger={
-              <div className="algorithm-component2">
-                <h3 className="nutrition-blood">LAB FINDINGS</h3>
-                <h3 className="data-normalizer">+</h3>
-              </div>
-                }>
+                  <div className="algorithm-component2">
+                    <h3 className="nutrition-blood">LAB FINDINGS</h3>
+                    <h3 className="data-normalizer">+</h3>
+                  </div>
+                }
+              >
                 <LabFindings />
               </Collapsible>
-              
+
               <div className="algorithm-component3">
                 <h3 className="nutrition-blood">{`IMAGING `}</h3>
                 <h3 className="data-normalizer">+</h3>

@@ -4,9 +4,9 @@ import React, { useState } from "react";
 
 const FrameComponent1 = () => {
   return (
-    <div>
-      <div className="stack-parent">
-        <div >
+    <div >
+      <div className="stack-parent" style={{ marginBottom: "5%" }}>
+        <div>
           <div className="stack">
             <div className="set">
               <h3 className="insurance-employer1">{`Overview`}</h3>
@@ -157,7 +157,7 @@ const FrameComponent1 = () => {
           </div>
         </div>
       </div>
-      <div className="exception-handler-wrapper">
+      <div className="exception-handler-wrapper" style={{ marginBottom: "5%" }}>
         <div className="exception-handler">
           <FrameComponent2
             pastAdmissions="Previous Surgeries"

@@ -21,8 +21,9 @@ const FrameComponent1 = () => {
   return (
     <div
       className="joiner-parent"
-      style={{ height: "100vh", overflow: "auto" }}
+      style={{ height: "100vh", overflowY: "auto" }}
     >
+      
       <div className="joiner">
         <div className="frame-parent3">
           <div className="frame-parent4">

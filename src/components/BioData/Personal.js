@@ -7,7 +7,7 @@ const Personal = () => {
       <div className="constant-parent">
         <div
           className="constant"
-          style={{ marginBottom: "5%", overflow: "hidden" }}
+          style={{ marginBottom: "5%"}}
         >
           <div className="function-parameter">
             <div className="exception-handler">
